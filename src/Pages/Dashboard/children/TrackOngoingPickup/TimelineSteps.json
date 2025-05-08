@@ -1,0 +1,43 @@
+[
+    {
+      "id": "1",
+      "title": "Junk Pick Up Order Received",
+      "description":
+        "Your request has been successfully recorded! A driver will soon be on their way to collect your junk."
+    },
+    {
+      "id": "2",
+      "title": "Driver Scheduled for Pickup",
+      "description":
+        "A driver has been assigned to your request and will arrive at 7:00 PM, 26 January 2025. Stay updated with real-time tracking!"
+    },
+    {
+      "id": "3",
+      "title": "Driver Reached at Pick Up Location",
+      "description":
+        "The driver has arrived at your location to collect the scheduled junk. Please ensure the items are ready for verification."
+    },
+    {
+      "id": "4",
+      "title": "Junk Verification and Price Adjustment",
+      "description":
+        "The driver inspects the collected junk to verify its type, weight, and quantity. If there are discrepancies, the price is adjusted accordingly, and the updated details are shared with you for transparency."
+    },
+    {
+      "id": "5",
+      "title": "Amount Received in Wallet",
+      "description":
+        "Your wallet has been credited with the verified junk value. Use it for future pickups or redeem it at your convenience."
+    },
+    {
+      "id": "6",
+      "title": "Junk Disposed",
+      "description":
+        "Your junk has been disposed of successfully. Thank you for helping the environment!"
+    },
+    {
+      "id": "🤝",
+      "title": "Thank you for helping the environment!",
+      "description": ""
+    }
+ ]

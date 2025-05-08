@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    width: 95vw;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.displayImage{
+    width: 35vw;
+    padding-left: 0px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+.displayImage img{
+    margin: 30px;
+}
+.contentImage{
+    margin: 0px;
+}
+.textContainer{
+    width: 45vw;
+}
+.textContainer h1{
+    font-family: var(--PrimaryFont-medium);
+    font-size: 60px;
+    font-weight: bold;
+}
+.textContainer strong{
+    color: var(--Primary-green);
+}
+.textContainer p{
+    font-family: var(--SecondaryFont-regular);
+    font-size: 18px;
+    color: var(--text-grey);
+    padding-inline: 5px;
+    line-height: 28px;
+}
+    
+
+.feature{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0px;
+    
+}
+.feature .dropdownIcon{
+    width: fit-content;
+}
+
+
+@media screen and (max-width: 768px)
+{
+    .container{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .displayImage{
+        display: none;
+    }
+    .textContainer{
+        width: 100%;
+    }
+    .textContainer h1{
+        font-size: 30px;
+    }
+    .textContainer p{
+        font-size: 16px;
+    }
+}
+@media  (min-width: 768px) and (max-width: 1024px)
+{
+    .container{
+        margin-top: 50px;
+        width: 90vw;
+    }
+    .displayImage{
+        display: none;
+    }
+    .textContainer{
+        width: 100%;
+    }
+    .textContainer h1{
+        font-size: 30px;
+    }
+    .textContainer p{
+        font-size: 16px;
+    }
+    .steptodo{
+        width: 100%;
+    }
+}

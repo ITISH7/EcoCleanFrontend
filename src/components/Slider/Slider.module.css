@@ -1,0 +1,13 @@
+.slider{
+    width:65%;
+    background-color: var(--Secondary-green);
+    border-radius: 50vw;
+    padding: 0.5vw;
+    display: flex;
+    gap: 1vw;
+    justify-self: center;
+    align-self: center;
+}
+.active{
+    background-color: var(--Primary-green);
+}

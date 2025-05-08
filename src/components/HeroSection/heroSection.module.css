@@ -1,0 +1,135 @@
+.container {
+    display: flex;
+    /* margin: 0 5vw 0 5vw; */
+    margin-left: 20px;
+    justify-content: space-between;
+    height: 100vh;
+}
+.image{
+    width: 40vw;
+    padding-left: 0px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container h1 {
+    font-family: var(--SecondaryFont-bold);
+    font-size: 60px;
+}
+.container p{
+    font-family: var(--SecondaryFont-medium);
+    font-size: 20px;
+    color: var(--text-grey);
+    padding-inline: 5px;
+    line-height: 28px;
+}
+
+.heroContent{
+    width: 40vw;
+}
+
+.buttonContainer{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.statistics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+.statistics h1{
+    font-size: 40px;
+}
+.statistics p{
+    font-size: 20px;
+    color: var(--black);
+    font-family:var(--SecondaryFont-bold);
+    margin: 0px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+    height: 45.45px;
+    font-family: var(--SecondaryFont-bold);
+    font-size: 16px;
+    background: #48872C;
+    border-radius: 10px;
+    color: white;
+    width: auto;
+}
+@media screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .heroContent{
+        width: 100%;
+    }
+    .heroContent h1{
+        font-size: 30px;
+    }
+    .heroContent p{
+        font-size: 16px;
+    }
+    .buttonContainer{
+        margin-top: 5vh;
+    }
+    .statistics{
+        margin-top: 5vh;
+    }
+    .statistics h1{
+        font-size: 25px;
+    }
+    .statistics p{
+        font-size: 16px;
+    }
+    .button{
+        width: 100%;
+        margin-inline: 10px;
+    }
+    .image{
+        display: none;
+        height: 90%;
+    }
+    
+}
+@media  (min-width: 768px) and (max-width: 1240px){
+    .container{
+        margin-left: 0px;
+        flex-direction: row;
+        max-height: fit-content;
+    }
+    .heroContent{
+        width: 100%;
+    }
+    .heroContent h1{
+        font-size: 30px;
+    }
+    .heroContent p{
+        font-size: 16px;
+    }
+    .buttonContainer{
+        margin-top: 5vh;
+    }
+    .statistics{
+        margin-top: 5vh;
+    }
+    .statistics h1{
+        font-size: 25px;
+    }
+    .statistics p{
+        font-size: 16px;
+    }
+    .button{
+        width: 100%;
+        margin-inline: 10px;
+    }    
+}

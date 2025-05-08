@@ -1,0 +1,156 @@
+
+/*  */
+.footer {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.footerWrapper{
+    background: linear-gradient(to right,#48872C 0%, #4CBB18 100%);
+    padding: 20px 0;
+    width: 100vw;
+}
+
+.footerContainer{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 20%;
+}
+
+.footerLogo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.footerLogo p{
+    font-size: 36px;
+    font-weight: bold;
+}
+.logoImage {
+    width: 20%; 
+    height: auto;
+}
+
+.footerText{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+.footerDescription{
+    width: 75%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.socialmediaLogoContainer {
+    margin-top: 3%;
+    display: flex;
+}
+
+.socialmediaLogo{
+    margin: 10px;
+}
+.youtubeLogo{
+    margin: 10px;
+    border: 1.5px solid white;
+}
+
+.linksContainer{
+    padding: auto;
+}
+
+td {
+    padding-left: 30px;
+    padding-right: 15px;
+    /* padding-top: 15px; */
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: -200px;
+    width: 200px; /* Set desired width */
+    white-space: nowrap
+}
+table{
+    margin-right: -100px;
+    margin-top: 30px;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.footerDivider {
+    border: none;            
+    border-top: 1px solid #ccc; 
+    margin-bottom: 50px;
+    margin-top: -40px;
+    width: 100%;         
+}
+
+.copyright {
+    margin-top: -20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 720px) {
+    .footerContainer {
+        flex-direction: column;
+        margin: 3% 5%; 
+    }
+
+    .footerText {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+
+    .footerDescription {
+        font-size: 12px; 
+        width: 100%; 
+    }
+
+    .logoImage {
+        width: 50%;
+    }
+
+    .socialmediaLogoContainer {
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+
+    td {
+        font-size: 10px; 
+        padding: 5px; 
+    }
+
+    table {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .footerDivider {
+        border: none;            
+        border-top: 1px solid #ccc; 
+        margin-bottom: 35px;
+        margin-top: -10px;
+        width: 100%;  
+    }
+
+    .copyright {
+        font-size: 10px; 
+    }
+}

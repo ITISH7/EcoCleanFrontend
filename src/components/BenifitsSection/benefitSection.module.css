@@ -1,0 +1,154 @@
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 5vw;
+    margin-left: 0vw;
+}
+
+.heading h1{
+    font-size: 60px;
+    font-family: var(--primaryFont-Bold);
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+.heading h1 strong{
+    color: var(--Secondary-green);
+    margin: 0px;
+    padding: 0px;
+}
+.heading p{
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 700px;
+    font-size: 22px;
+    font-family: var(--primaryFont-medium);
+    text-align: center;
+    line-height: 30px;
+    color:var(--text-dark-grey);
+
+}
+.benefitList { 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.card{
+width: 20vw;
+height: 270px;
+margin-inline: 30px;
+box-shadow: 1px 1px 4px 4px var(--background-color-skyblue);
+padding-right: 20px;
+padding-bottom: 30px;
+border-radius: 25px;
+flex-wrap: wrap;
+
+}
+.card h3{
+    margin-left: 10px;
+    font-family: var(--SecondaryFont-Bold);
+    margin-top: 0px;
+    flex-wrap: wrap;
+
+}
+.card p{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-family: var(--primaryFont-medium);
+    color: var(--text-dark-grey);
+    font-size: 18px;
+    line-height: 25px;
+}
+.card img{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 0px;
+    margin-left: -20px;
+}
+
+@media screen and (max-width: 768px)
+{
+    .container{
+        margin-top: 50px;
+        padding-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .heading h1{
+        font-size: 25px;
+    }
+    .heading p{
+        width: 80%;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: left;
+        flex-wrap: wrap;
+    }
+    .benefitList{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .card{
+        width: 85%;
+        height: 200px;
+        margin-inline: 0px;
+        margin-bottom: 20px;
+    }
+    .card h3{
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 14px;
+    }
+    .card img{
+        width: 20%;
+        height: 30%;
+        margin-left:2%;
+    }
+    
+}
+
+@media  (min-width: 768px) and (max-width: 1200px)
+{
+    .container{
+        margin-top: 50px;
+        padding-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .heading h1{
+        font-size: 40px;
+    }
+    .heading p{
+        width: 80%;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: left;
+    }
+    .benefitList{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .card{
+        width: 85%;
+        height: 200px;
+        margin-inline: 0px;
+        margin-bottom: 20px;
+    }
+    .card h3{
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 14px;
+    }
+    .card img{
+        width: 25%;
+        height: 40%;
+    }
+}

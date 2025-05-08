@@ -1,0 +1,19 @@
+.input{
+    font-family: var(--poppins-regular);
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #0047B2; 
+    border-radius: 50px; 
+    font-size: 16px;
+    outline: none; 
+    background-color: white;
+    
+}
+.input::placeholder {
+    color: #ACACAC; 
+  }
+  
+.input:focus {
+    border-color: #0047B2;
+    box-shadow: 0 0 5px rgba(30, 64, 175, 0.5);
+  }

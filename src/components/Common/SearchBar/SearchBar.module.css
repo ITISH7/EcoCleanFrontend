@@ -1,0 +1,9 @@
+.searchbar{
+    /* border: 1px solid black; */
+    /* display: flex; */
+}
+.searchbutton{
+    color: #ACACAC; 
+    background-color: white;
+    border: 1px solid #0047B2; 
+    }

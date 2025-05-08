@@ -1,0 +1,7 @@
+.heroImage{
+    margin: 0px;
+    /* padding-left: 2vw; */
+    object-fit: contain;
+    /* margin-left: 50px; */
+    margin-top: 2vh;
+}

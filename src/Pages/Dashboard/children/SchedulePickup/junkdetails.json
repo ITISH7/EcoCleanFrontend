@@ -1,0 +1,42 @@
+[
+    {
+        "junkType": "Plastic",
+        "junkUnitPrice": 2.5
+    },
+    {
+        "junkType": "Paper",
+        "junkUnitPrice": 1.2
+    },
+    {
+        "junkType": "Metal",
+        "junkUnitPrice": 1.5
+    },
+    {
+        "junkType": "iron",
+        "junkUnitPrice": 10
+    },
+    {
+        "junkType": "cardboard",
+        "junkUnitPrice": 4
+    },
+    {
+        "junkType": "wood",
+        "junkUnitPrice": 5
+    },
+    {
+        "junkType": "rusted iron",
+        "junkUnitPrice": 8.2
+    },
+    {
+        "junkType": "copper",
+        "junkUnitPrice": 7.4
+    },
+    {
+        "junkType": "pvc",
+        "junkUnitPrice": 6
+    },
+    {
+        "junkType": "glass",
+        "junkUnitPrice": 4
+    }
+]
